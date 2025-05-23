@@ -14,4 +14,6 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 
 2:00 PM: Finally put my Hack Club SD card to good use! Trying to wire up and test out the RFID board now.
 
-2:10: Nevermind, that tutorial uses Python 2 (despite being from only 2017). Gonna try [this one](https://pimylifeup.com/raspberry-pi-rfid-rc522/) instead.
+2:10 PM: Nevermind, that tutorial uses Python 2 (despite being from only 2017). Gonna try [this one](https://pimylifeup.com/raspberry-pi-rfid-rc522/) instead.
+
+2:53 PM: Had to take a roughly 45 minute break. Didn't get to wiring up anything yet, will do it now!
