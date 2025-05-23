@@ -9,3 +9,5 @@ This is the start of my journal file! This project is a physical Minecraft jukeb
 
 ### May 23, 2025
 Going to start doing work and research on this stuff. Time is 1:17 PM for my own future reference. I know this might be bad practice but I'm just gonna make a commit every time I edit the journal. Anyways, I think that I might instead of a Pi Zero use a 3 B+, because the Zero has no native wired output, and getting it and a HAT would be about the same cost as getting a Pi 3 B+. Gonna look at how I could do the NFC interface and code now.
+
+1:32 PM: Using [this](https://www.instructables.com/RFID-RC522-Raspberry-Pi/) for reference for wiring and maybe the basis of the RC522 interface. My dumb ass just remembered I need to actually flash Pi OS onto my Pi. I'm gonna do that first lol.
