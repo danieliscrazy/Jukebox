@@ -25,3 +25,6 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 
 ![image](https://github.com/user-attachments/assets/8bc12483-85d8-4514-a342-84923e08bdf2)
 > The terminal output on my Pi
+
+### May 24, 2025
+10:24 AM: I'm gonna work on the 3D models now. Gonna make them in TinkerCAD as that's what I'm most experienced with. I think for size I'm basically going to do each pixel is 8 mm (so the whole jukebox will be a 128 mm cube).
