@@ -54,3 +54,11 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 2:43 PM: Haven't worked any more since 2. Gonna work more now.
 
 3:13 PM: Split it up into 6 pieces, but currently can't figure out how to connect them. Was going to just use pegs but that didn't really work, because in order to take it apart the way I wanted, I'd need to put supports in the holes, which would be impossible to remove. Stopping for today. Believe I've worked around 3 hours (bringing the total to 4).
+
+7:30 PM: Been working on this a bit more for like 30 minutes, I think I'm gonna try using this sort of jigsaw style way to join it, making it altogether 4 pieces printed out, the bottom and 3 sides as one piece, the side with the speaker and the Pi as another, the top piece as one, and then the slot for the disc. Gonna try making a test print of the case to see if it all works together.
+
+![image](https://github.com/user-attachments/assets/20c846df-675e-4763-8c33-8771692ab79f)
+> The back of the jukebox, with the new joining method
+
+![image](https://github.com/user-attachments/assets/f8694b2e-bb59-4223-8d4b-97bb9a41e8b4)
+> All of the parts laid out
