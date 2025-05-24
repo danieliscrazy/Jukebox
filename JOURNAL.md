@@ -28,3 +28,9 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 
 ### May 24, 2025
 10:24 AM: I'm gonna work on the 3D models now. Gonna make them in TinkerCAD as that's what I'm most experienced with. I think for size I'm basically going to do each pixel is 8 mm (so the whole jukebox will be a 128 mm cube).
+
+10:50 AM: Got one face of the jukebox done. I'm gonna need to make the discs at a weird scale so that they fit, they'll be around 5mm pixels. Taking a break now and will log again right when I do.
+
+![image](https://github.com/user-attachments/assets/87b942b6-64e1-44c4-971e-d9b2a5c0aa6d)
+> A side of a jukebox!
+ 
