@@ -45,3 +45,8 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 
 ![image](https://i.imgur.com/0uyaF67.gif)
 > How the discs will work. The circle in the disc is for the NFC tags.
+
+1:45 PM: Just remembered I got my current Pi 3 B+ from a Kano kit, which had a speaker case in it. I think I can easily adapt it to fit this. With that, I think my case is nearing completion, just need to figure out how I'll assemble it. Also, I found out that someone else online made something like this before! They used a software called [PhonieBox](https://phoniebox.de/index-en.html), which seems to be exactly what I need, but I do want to try to make this myself because I feel like that wouldn't be in the spirit of Highway. If I can't get it to work in Python though, I will use that.
+
+![image](https://github.com/user-attachments/assets/da1da90f-6023-4e61-8953-001d19ab3618)
+> The jukebox with a speaker hole and a hole for the Raspberry Pi's ports.
