@@ -51,4 +51,6 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 ![image](https://github.com/user-attachments/assets/da1da90f-6023-4e61-8953-001d19ab3618)
 > The jukebox with a speaker hole and a hole for the Raspberry Pi's ports.
 
-2:43: Haven't worked any more since 2. Gonna work more now.
+2:43 PM: Haven't worked any more since 2. Gonna work more now.
+
+3:13 PM: Split it up into 6 pieces, but currently can't figure out how to connect them. Was going to just use pegs but that didn't really work, because in order to take it apart the way I wanted, I'd need to put supports in the holes, which would be impossible to remove. Stopping for today. Believe I've worked around 3 hours (bringing the total to 4).
