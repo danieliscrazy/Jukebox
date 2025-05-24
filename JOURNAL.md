@@ -35,7 +35,13 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 > A side of a jukebox!
  
 12:06 PM: Back! Getting back to work.
+
 12:26 PM: Finished the basic structure. Gonna try to work on how the electronics fit in now.
 
 ![image](https://github.com/user-attachments/assets/75807609-f29d-4d2f-a878-2c99937b0f38)
 > A jukebox!
+
+12:59 PM: Got the basic structure of how it's gonna work down. Basically now all I need is to put in space for the Raspberry Pi (and the speaker, which I'm just now realizing I've done no work on researching) and divy it up so it can be printed. I made a GIF!
+
+![image](https://i.imgur.com/0uyaF67.gif)
+> How the discs will work. The circle in the disc is for the NFC tags.
