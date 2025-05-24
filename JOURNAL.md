@@ -35,3 +35,7 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 > A side of a jukebox!
  
 12:06 PM: Back! Getting back to work.
+12:26 PM: Finished the basic structure. Gonna try to work on how the electronics fit in now.
+
+![image](https://github.com/user-attachments/assets/75807609-f29d-4d2f-a878-2c99937b0f38)
+> A jukebox!
