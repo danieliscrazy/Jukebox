@@ -15,7 +15,7 @@ try:
         sleep(5)
         if id == 584186575628:
             print("Detected! Playing!")
-            p.play
+            p.play()
             
 except KeyboardInterrupt:
     GPIO.cleanup()
