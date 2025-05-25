@@ -62,3 +62,7 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 
 ![image](https://github.com/user-attachments/assets/f8694b2e-bb59-4223-8d4b-97bb9a41e8b4)
 > All of the parts laid out
+
+### May 25, 2025
+
+9:15 AM: Test print failed, filament got tangled, need to run it again but honestly I've been too lazy to relevel the printer (I really need to get a BLTouch), I'll get around to it. Been working on the software aspect of it for about half an hour now. Not great at Python so basically just cobbling bits and pieces of code that come up when I Google search "rc522 python" and "python playing music". Gonna make the first commit in a few with some test code so that I can just grab the code from GitHub instead of messing with SCP.
