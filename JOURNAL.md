@@ -66,3 +66,5 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 ### May 25, 2025
 
 9:15 AM: Test print failed, filament got tangled, need to run it again but honestly I've been too lazy to relevel the printer (I really need to get a BLTouch), I'll get around to it. Been working on the software aspect of it for about half an hour now. Not great at Python so basically just cobbling bits and pieces of code that come up when I Google search "rc522 python" and "python playing music". Gonna make the first commit in a few with some test code so that I can just grab the code from GitHub instead of messing with SCP.
+
+10:20 AM: After some issues with the speaker, I got the base code to work, it plays a song when 1 of the tags. Now what I need to do is to implement multiple discs, and figure out how to detect when it's been removed. I'm rather stumped on that last part. I might need to use Copilot for help. If I do, I'll make it blatantly clear what sections are helped by AI. I've been working for about an hour and 15 minutes so far today, today, bringing the toal to like 5 hours and 45 minutes I've worked on this.
