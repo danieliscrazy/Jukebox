@@ -1,6 +1,8 @@
 # Jukebox
 This is an IRL Minecraft jukebox that plays 3D printed discs, powered by a Raspberry Pi 3 B+, an RC522 RFID board, and some really crappy Python code. This project is being made for and funded by Hack Club's Highway program.
 
+> Disclaimer: Artificial intelligence was used in the making of this project's code. As such, that code is exempt from the GNU GPL v3 license the rest of the project is under. See [jukebox.py](jukebox.py) for more information.
+
 ![image](https://github.com/user-attachments/assets/04b071e2-725f-4924-a09f-d1b032244e43)
 
 | Item | Use | Source | Price | Total Price |
