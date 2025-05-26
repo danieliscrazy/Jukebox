@@ -70,3 +70,7 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 10:20 AM: After some issues with the speaker, I got the base code to work, it plays a song when 1 of the tags. Now what I need to do is to implement multiple discs, and figure out how to detect when it's been removed. I'm rather stumped on that last part. I might need to use Copilot for help. If I do, I'll make it blatantly clear what sections are helped by AI. I've been working for about an hour and 15 minutes so far today, today, bringing the toal to like 5 hours and 45 minutes I've worked on this.
 
 10:33 AM: I did end up using Copilot, and I added a disclaimer to my code file, but it seems to work now! I just need to make a bunch of different tags and make it work for multiple of them. Signing off for now, got some school work I need to get done, and I think that brings me up to about a nice even 6 hours. Once I get the code finished, I'll finalize the 3D files, upload them, and get ready to submit it!
+
+### May 26, 2025
+
+12:18 PM: I've been working for I'd say 45 minutes on this, mostly the code but also some wiring (damn thing keeps coming loose). My code is janky and doesn't have all the songs yet, but it works! I think I'm ready to submit. Gonna upload all the STL files and all that.
