@@ -75,3 +75,7 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 ### May 26, 2025
 
 12:18 PM: I've been working for I'd say 45 minutes on this, mostly the code but also some wiring (damn thing keeps coming loose). My code is janky and doesn't have all the songs yet, but it works! I think I'm ready to submit. Gonna upload all the STL files and all that.
+
+### May 28, 2025
+
+1:00 PM: Pi 3 wasn't approved, but Alex did point me in the right direction with a Pi Zero and an I2S board. Gonna update the case and BOM, and then I should hopefully be good to go!
