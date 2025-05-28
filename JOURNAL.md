@@ -82,5 +82,5 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 
 1:18 PM: TinkerCAD on a 2012 MacBook *sucks*. I got the case fixed anyways. Had to put a new, bigger speaker in since otherwise I'd have to splice open my current speaker, but it's only 3 bucks.
 
-<img width="611" alt="Screen Shot 2025-05-28 at 1 19 41 PM" src="https://github.com/user-attachments/assets/b8ca9081-a538-43dd-b3d7-9a23838cd20c" />
+![image](https://github.com/user-attachments/assets/b8ca9081-a538-43dd-b3d7-9a23838cd20c)
 > New side panel!
