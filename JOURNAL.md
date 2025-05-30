@@ -84,3 +84,7 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 
 ![image](https://github.com/user-attachments/assets/b8ca9081-a538-43dd-b3d7-9a23838cd20c)
 > New side panel!
+
+### May 30, 2025
+
+4:45 PM: Got all my parts from Micro Center! Loaded up the filament and running the side panel print. Had to add .2mm tolerances because the test parts didn't fit together, will upload corrected CAD files in a few. Got the speaker and I2S board soldered up, gonna try to set up the code on my existing Pi 3 first before moving over to the Pi Zero, because I don't have a mini HDMI cable or a USB OTG adapter. It's now closer to 6:00 and I still haven't made this commit. Woops! Drowsy because I might've taken 2 doses of a medicine (I'm all good just tired now), so can't work on electronics today. Maybe tomorrow or Sunday afternoon. Bye!
