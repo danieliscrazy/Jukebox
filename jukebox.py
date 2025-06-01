@@ -8,10 +8,12 @@ from mfrc522 import SimpleMFRC522
 import vlc
 reader = SimpleMFRC522()
 
-song1 = vlc.MediaPlayer("file:///home/danield/jukebox/song1.mp3")
-song2 = vlc.MediaPlayer("file:///home/danield/jukebox/song2.mp3")
+p = vlc.MediaPlayer("file:///home/danield/jukebox/song1.mp3")
+ep = vlc.MediaPlayer("file:///home/danield/jukebox/song2.mp3")
 
-last_id = None   
+last_id = None
+
+tries = 0
 
 try:
     while True:
@@ -20,22 +22,25 @@ try:
         if id == 584186575628:
             if last_id != id:
                 print("Detected! Playing!")
-                song1.play()
+                p.play()
             last_id = id
+            tries = 0
         elif id == 584196735387:
             if last_id != id:
                 print("Detected! Playing!")
-                song2.play()
+                ep.play()
             last_id = id
+            tries = 0
         else:
             if last_id is not None:
-                print("No longer detected! Stopped!")
-                song1.stop()
-                song2.stop()
-                last_id = None
+                tries += 1
+                if tries >= 5:
+                    print("No longer detected! Stopped!")
+                    p.stop()
+                    ep.stop()
+                    last_id = None
+                    tries = 0
         sleep(0.2)
 
 except KeyboardInterrupt:
     GPIO.cleanup()
-    
-
