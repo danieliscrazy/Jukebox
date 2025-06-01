@@ -88,3 +88,7 @@ Going to start doing work and research on this stuff. Time is 1:17 PM for my own
 ### May 30, 2025
 
 4:45 PM: Got all my parts from Micro Center! Loaded up the filament and running the side panel print. Had to add .2mm tolerances because the test parts didn't fit together, will upload corrected CAD files in a few. Got the speaker and I2S board soldered up, gonna try to set up the code on my existing Pi 3 first before moving over to the Pi Zero, because I don't have a mini HDMI cable or a USB OTG adapter. It's now closer to 6:00 and I still haven't made this commit. Woops! Drowsy because I might've taken 2 doses of a medicine (I'm all good just tired now), so can't work on electronics today. Maybe tomorrow or Sunday afternoon. Bye!
+
+### June 1, 2025
+
+11:45 AM: Yesterday, I got it all assembled! I still need to paint it and print out more discs, but it works! [Here's a test video of it!](https://imgur.com/sRMTtmy) I've kinda given up on tracking time at this point, I'd say I probably worked around 3 or so more hours at least on getting this all put together.
