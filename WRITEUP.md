@@ -1,4 +1,4 @@
-> WIP!
+> WIP! Can't stay focused enough to keep writing this, will finish tomorrow.
 
 # Jukebox
 
@@ -18,7 +18,7 @@ otherside = vlc.MediaPlayer("file:///home/danield/jukebox/otherside.mp3")
 pigstep = vlc.MediaPlayer("file:///home/danield/jukebox/pigstep.mp3")
 ```
 
-Each song has its own tag, and thus tag ID. To add a new disc, I just add an MP3 as shown above, add an `elif`, copy the code over, and replace the tag ID and the song. 
+Each song has its own tag, and thus tag ID. To add a new disc, I just add an MP3 as shown above, add an `elif`, copy the code over, and replace the tag ID and the song. Simple when there's only 2 songs, but I plan to have 13 of them at least, so it'll get complicated fast. Like I said, clunky and inefficient, but it works!
 
 ```
 try:
@@ -39,7 +39,7 @@ try:
             tries = 0
 ```
 
-It reads every .2 seconds to see if the disc is there. Then I just have every song stop playing when the tags are removed. I also added some code to not immediately stop it unless it's been detected as gone 5 times, because it turns out the wall of the slot in the case is just barely too thick.
+It reads every .2 seconds to see if the disc is there. Then I have every song stop playing when the tags are removed. I also added some code to not immediately stop it unless it's been detected as gone 5 times, because it turns out the wall of the slot in the case is just barely too thick.
 
 ```
         else:
@@ -53,3 +53,7 @@ It reads every .2 seconds to see if the disc is there. Then I just have every so
                     tries = 0
         sleep(0.2)
 ```
+
+### Case
+
+(to be added)
