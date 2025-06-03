@@ -8,13 +8,16 @@ from mfrc522 import SimpleMFRC522
 import vlc
 reader = SimpleMFRC522()
 
-otherside = vlc.MediaPlayer("file:///home/danield/jukebox/otherside.mp3")
-pigstep = vlc.MediaPlayer("file:///home/danield/jukebox/pigstep.mp3")
+chirp = vlc.MediaPlayer("file:///home/danield/jukebox/chirp.mp3") # https://vgmsite.com/soundtracks/minecraft/adxomiqwds/2-20.%20Chirp.mp3
+otherside = vlc.MediaPlayer("file:///home/danield/jukebox/otherside.mp3") 
+mellohi = vlc.MediaPlayer("file:///home/danield/jukebox/mellohi.mp3") # https://vgmsite.com/soundtracks/minecraft/gmbkrizoms/2-22.%20Mellohi.mp3
+cat = vlc.MediaPlayer("file:///home/danield/jukebox/cat.mp3") # https://vgmsite.com/soundtracks/minecraft/biwkbeziap/1-19.%20Cat.mp3
+start = vlc.MediaPlayer("file:///home/danield/jukebox/start.mp3")
 
 last_id = None
 
 tries = 0
-
+start.play()
 try:
     while True:
         print("Hold a tag near the reader")
@@ -25,10 +28,22 @@ try:
                 otherside.play()
             last_id = id
             tries = 0
-        elif id == 584196735387:
+        elif id == 584187564821:
             if last_id != id:
                 print("Detected! Playing!")
-                pigstep.play()
+                chirp.play()
+            last_id = id
+            tries = 0
+        elif id == 584197590179:
+            if last_id != id:
+                print("Detected! Playing!")
+                mellohi.play()
+            last_id = id
+            tries = 0
+        elif id == 584189789991:
+            if last_id != id:
+                print("Detected! Playing!")
+                cat.play()
             last_id = id
             tries = 0
         else:
@@ -37,7 +52,9 @@ try:
                 if tries >= 5:
                     print("No longer detected! Stopped!")
                     otherside.stop()
-                    pigstep.stop()
+                    chirp.stop()
+                    mellohi.stop()
+                    cat.stop()
                     last_id = None
                     tries = 0
         sleep(0.2)
