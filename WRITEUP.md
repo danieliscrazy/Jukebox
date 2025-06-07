@@ -7,13 +7,17 @@ This is my Minecraft jukebox IRL project I made for Hack Club's Highway program!
 ### Hardware
 > I link to parts that I know are from reputable sources. Things I already have/don't remember where I got them from, I didn't link as I don't want to vouch for something I haven't purchased, and if you want to make this project you'll have to look for it yourself. Sorry!
 
-The brains of this project is a [Raspberry Pi Zero 2 W](https://www.adafruit.com/product/5291). I was originally going to use a Pi 3 B+, as it has AUX output and the Zero 2 does not, but that ended up being too expensive for my grant, so I went with a Pi Zero 2 plus an [I2S amp](https://www.adafruit.com/product/3006) and a [3" speaker (4Ω 3W)](https://www.adafruit.com/product/1314). Requires a bit more configuring (see [here](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/overview) for a tutorial), but works just fine. I used an RC522 board alongside a few 1" NFC tag stickers (NTAG215 tags, but it shouldn't matter really). I followed [this guide](https://pimylifeup.com/raspberry-pi-rfid-rc522/) by Pi My Life Up for the wiring and the initial setup. I used the script in their [GitHub README](https://github.com/pimylifeup/MFRC522-python/blob/master/README.md) as a test script. I want to add a wiring diagram here, but Fritzig is being finnicky and I don't have the patience to fix it right now. I'll add it soon. Once I followed that guide, I used the test script to test out the functionality and to get the IDs of the tags.
+The brains of this project is a [Raspberry Pi Zero 2 W](https://www.adafruit.com/product/5291). I was originally going to use a Pi 3 B+, as it has AUX output and the Zero 2 does not, but that ended up being too expensive for my grant, so I went with a Pi Zero 2 plus an [I2S amp](https://www.adafruit.com/product/3006) and a [3" speaker (4Ω 3W)](https://www.adafruit.com/product/1314). Requires a bit more configuring (see [here](https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/overview) for a tutorial), but works just fine. I used an RC522 board alongside a few 1" NFC tag stickers (NTAG215 tags, but it shouldn't matter really). I followed [this guide](https://pimylifeup.com/raspberry-pi-rfid-rc522/) by Pi My Life Up for the wiring and the initial setup. I used the script in their [GitHub README](https://github.com/pimylifeup/MFRC522-python/blob/master/README.md) as a test script.
+
+![jukebox wiring](https://github.com/user-attachments/assets/20cb8b81-cf66-49eb-bd9f-e865b8565c4e)
+> The wiring diagram for my project.
 
 ### Software
 
 The [Python script I have](jukebox.py) is clunky, probably not efficient, and partially AI generated, but it gets the job done. For every song/disc/NFC tag, I just repeat the code. These are the songs themselves.
 
 ```
+
 otherside = vlc.MediaPlayer("file:///home/danield/jukebox/otherside.mp3")
 pigstep = vlc.MediaPlayer("file:///home/danield/jukebox/pigstep.mp3")
 ```
@@ -54,6 +58,18 @@ It reads every .2 seconds to see if the disc is there. Then I have every song st
         sleep(0.2)
 ```
 
+I do feel the need to note that after completing this project, I found that [someone else already made a similar project](https://www.reddit.com/r/Minecraft/comments/12510sh/i_3dprinted_a_working_minecraft_jukebox_with_all/)! They used a software called [PhonieBox](https://phoniebox.de/index-en.html) which does basically all this does and more. I haven't tried it out so I can't vouch for it, but if you want to make this project, it might work better for you.
+
 ### Case
 
-(to be added)
+I made the case in TinkerCAD. While it isn't great for complex stuff, it _is_ great for simple geometric shapes, and you can't get more geometric than Minecraft blocks. Each pixel is an 8\*8\*8 mm cube, and each face is a millimeter lower than the frame and the pattern. 
+
+![image](https://github.com/user-attachments/assets/8933d638-a7f1-47eb-bdf2-4f4c081aec3c)
+> A face of the Jukebox broken down into pixels.
+
+I ended up breaking it into 4 parts, the main body (4 of the 6 faces), the side panel (which has the hole for the speaker and for the Pi's power cable), the top panel (with the hole for the disc to go in), and the actual slot that holds the disc. 
+
+![image](https://github.com/user-attachments/assets/c2484dcc-140f-4df3-9322-a24319113c50)
+> All 4 pieces of the case.
+
+I printed them on my Ender 3 V2 with PrusaSlicer at 15% infill and 0.28 mm layer height (except for the main body, which I printed at 0.2 mm to make sure it was _exactly_ 128 mm, this is likely unneccesary). I printed the top panel flat on the bed, and I printed the side panel upright to make sure the texture of the pattern didn't look weird once it was all together. Despite Prusa insisting on it, supports are not needed for a 1 mm overhang, and if there were supports there, they'd be impossible to remove. Because of that, I unfortunately had to disable auto supports and manually paint them on in the places they were actually needed.
